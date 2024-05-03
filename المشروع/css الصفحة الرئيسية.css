@@ -1,0 +1,161 @@
+body {
+    text-shadow: 2px 2px 4px #818181;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.492);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(24, 24, 24, 0.704);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #ffffff34;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.671);
+    border-radius: 50%; /* يجعل الشكل دائري */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(169, 169, 169, 0.708);
+    width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* إضافة زوايا جميلة */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropdown-content a:hover {
+    background-color: #0e0e0e61;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+nav {display: flex;
+    justify-content: center; /* يُوسط العناصر أفقيًا */
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+section {
+    padding: 20px;
+    background-color: #548fed34;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
+}
+
+li {
+    font-size: 20px;
+    color: #000;
+    font-size: 25px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #6a6a6a5d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+.btn1 {
+    position: relative;
+    top: 10px;
+    right: 600px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 999;
+}
+.btn {
+    position: relative;
+    top: 10px;
+    left: 600px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    z-index: 999;
+}
+
+.rtx {
+    background-color: #3c9af1d9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.671);
+}
+
+body {
+    background-size: cover;
+    border: none;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 200px; /* تعديل المسافة بين العناصر حسب الحاجة */
+}
+.img1 {
+    position: absolute;
+    top: -33px;
+    left: 1300px;
+}
+.img2{
+    position: absolute;
+    top: -33px;
+    right:1300px ;
+}
